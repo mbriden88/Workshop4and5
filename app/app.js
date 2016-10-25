@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-class UghWorld extends React.Component {
-render() {
+class Feed extends React.Component {
+render(){
 <div>
 return (
   <div className="fb-status-update-entry panel panel-default">
@@ -67,7 +67,7 @@ return (
             </div>
             <div className="media-body">
               <a href="#">Someone</a>
-              <br /> Yesterday at 3:48pm · Austin, TX · <span className="glyphicon glyphicon-user"></span>
+              <br /> Yesterday at 3:m · Austin, TX · <span className="glyphicon glyphicon-user"></span>
             </div>
           </div>
         </div>
@@ -144,11 +144,10 @@ return (
       </ul>
     </div>
   </div>
-);
-</div>
+);</div>
 }
 }
 ReactDOM.render(
-<UghWorld />,
+<Feed />,
 document.getElementById('fb-feed')
 );
