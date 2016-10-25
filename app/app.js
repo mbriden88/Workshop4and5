@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 class Feed extends React.Component {
 render(){
-<div>
 return (
+  <div>
   <div className="fb-status-update-entry panel panel-default">
     <div className="panel-body">
       <ul className="nav nav-pills">
@@ -144,7 +144,8 @@ return (
       </ul>
     </div>
   </div>
-);</div>
+</div>
+);
 }
 }
 ReactDOM.render(
